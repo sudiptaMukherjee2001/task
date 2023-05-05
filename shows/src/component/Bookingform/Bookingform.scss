@@ -1,0 +1,64 @@
+@import "../../common/color.scss";
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 37px;
+  margin-top: 30px;
+  form {
+    .moviePoster {
+      margin-left: 108px;
+      img {
+        border-radius: 16px;
+      }
+    }
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 34%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    .name,
+    .phoneNumber,
+    .email {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      input {
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding-block: 11px;
+        margin-top: 10px;
+        text-align: center;
+        color: $font-primary;
+        font-size: 1.3rem;
+        caret-color: rgb(252, 252, 252);
+        background-color: #465f7b;
+        width: 49%;
+      }
+    }
+    .showname {
+      span {
+        margin-left: 110px;
+      }
+    }
+    .ratings {
+      span {
+        margin-left: 170px;
+      }
+    }
+    button {
+      padding-block: 8px;
+      margin-block: 10px;
+      margin-inline: 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      font-size: 2.3rem;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}
