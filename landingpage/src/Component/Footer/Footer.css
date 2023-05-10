@@ -1,0 +1,31 @@
+.footer {
+  background-color: #b73200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 90px;
+  column-gap: 40px;
+  color: aliceblue;
+}
+.footer > .first {
+  /* border: 2px solid; */
+  width: 27%;
+}
+.footer > .first > .text {
+  /* width: 40%; */
+  font-size: 0.7rem;
+  color: aliceblue;
+  text-align: center;
+}
+.footer > .second > ul > li {
+  font-size: 0.7rem;
+}
+.footer > .third > ul > li {
+  font-size: 0.7rem;
+}
+.footer > .fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

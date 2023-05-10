@@ -1,0 +1,13 @@
+.nav {
+  background-color: rgb(255, 225, 218);
+  padding-block: 10px;
+}
+.nav > ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.nav > ul > li {
+  font-size: 0.8rem;
+  font-weight: 600;
+}

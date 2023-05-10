@@ -1,0 +1,58 @@
+.feedback {
+  border: 2px solid red;
+  margin-left: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  row-gap: 12px;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.feedback > .title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(157, 6, 6);
+}
+.feedback > .para {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+.feedback > .inputBox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 340px;
+}
+.feedback > .inputBox > input {
+  width: 100%;
+  /* border: none; */
+  outline: none;
+  padding-block: 5px;
+  border-radius: 11px;
+}
+.feedback > .inputBox > textarea {
+  width: 100%;
+  /* border: none; */
+  outline: none;
+  padding-block: 5px;
+  border-radius: 11px;
+}
+::placeholder {
+  padding-left: 10px;
+}
+
+.feedback > .btn > button {
+  padding-inline: 40px;
+  padding-block: 5px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(220, 0, 0);
+  cursor: pointer;
+}

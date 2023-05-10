@@ -1,0 +1,44 @@
+.facilityCard {
+  /* border: 2px solid; */
+  width: 100%;
+  padding-block: 53px;
+  border-radius: 6px;
+  /* transition: 0.9s; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.facilityCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.facilityCard > .image {
+  width: 100px;
+  /* border: 2px solid red; */
+  margin: auto;
+}
+.facilityCard > .image > img {
+  /* border: 2px solid; */
+  width: 100%;
+}
+
+.facilityCard > .title > span {
+  /* border: 2px solid; */
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.facilityCard > .desc {
+  /* border: 2px solid; */
+  text-align: center;
+  width: 195px;
+  margin: auto;
+}
+
+.facilityCard > .desc > p {
+  width: 100%;
+  font-size: 0.6rem;
+  color: rgb(181, 181, 181);
+}

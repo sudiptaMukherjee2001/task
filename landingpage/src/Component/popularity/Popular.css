@@ -1,0 +1,41 @@
+.pupularity {
+  background-color: rgba(255, 232, 232, 0.703);
+}
+.pupularity > .up {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pupularity > .up > .name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pupularity > .up > .desc {
+  /* border: 2px solid; */
+  width: 50%;
+  text-align: center;
+  font-size: 0.7rem;
+  margin-bottom: 30px;
+}
+.pupularity > .down {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.pupularity > .down > .cards {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 60px;
+  padding-inline: 50px;
+  row-gap: 10px;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+}

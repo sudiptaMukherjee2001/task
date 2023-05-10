@@ -1,0 +1,66 @@
+.banner > .upper {
+  /* border: 2px solid; */
+  display: flex;
+  background-image: url("../../Image/background.png");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  position: relative;
+  top: -132px;
+  padding: 0;
+  z-index: -1;
+}
+.banner > .upper .desk > img {
+  width: 26%;
+  position: absolute;
+  bottom: 67px;
+
+  margin-left: 24px;
+}
+.banner > .upper .wheelChair > img {
+  position: absolute;
+  bottom: 67px;
+  left: 33%;
+  width: 12%;
+}
+
+.banner > .upper .sofa > img {
+  position: absolute;
+  bottom: 63px;
+  width: 25%;
+  right: 210px;
+}
+.banner > .upper .twopeople > img {
+  position: absolute;
+  bottom: 66px;
+  /* left: 1003px; */
+  /* width: 0%; */
+  width: 19%;
+  right: 0;
+}
+.banner > .upper::after {
+  content: "";
+  position: absolute;
+  width: 99.7%;
+  border: 2px solid #ba0e0e;
+  bottom: 63px;
+}
+
+.banner > .lower > h2 {
+  text-align: center;
+  position: relative;
+  top: -94px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.banner > .lower > .allfacility {
+  /* border: 2px solid red; */
+  display: flex;
+  column-gap: 9px;
+
+  padding-right: 10px;
+
+  margin-bottom: 30;
+}

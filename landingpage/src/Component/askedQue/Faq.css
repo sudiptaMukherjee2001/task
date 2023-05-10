@@ -1,0 +1,72 @@
+.faq {
+  padding-block: 40px;
+  background-color: rgba(255, 232, 232, 0.703);
+  width: 99%;
+}
+
+.faq > .up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+.faq > .up > .title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.faq > .up > .para {
+  font-size: 0.6rem;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.faq > .mid > .left > ul {
+  display: flex;
+}
+
+.faq > .mid > .left > ul > li > .content > .que {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.faq > .mid > .left > ul > li > .content > .ans {
+  padding-left: 48px;
+  padding-block: 14px;
+  font-size: 0.8rem;
+}
+
+.faq > .mid > .right > ul {
+  display: flex;
+}
+.faq > .mid > .right > ul > li > .content > .que {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.faq > .mid > .right > ul > li > .content > .ans {
+  padding-left: 48px;
+  padding-block: 14px;
+  font-size: 0.8rem;
+}
+
+.faq > .down {
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+}
+.faq > .down > button {
+  padding-inline: 40px;
+  padding-block: 6px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(220, 0, 0);
+}

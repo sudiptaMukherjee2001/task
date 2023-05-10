@@ -1,0 +1,45 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.review > .heading {
+  position: relative;
+  padding-bottom: 5px;
+}
+.review > .heading::after {
+  border: 2px solid #ba0e0e;
+  content: "";
+  position: absolute;
+  width: 80%;
+  bottom: -3px;
+  left: 20px;
+  border-radius: 30px;
+}
+.review > p {
+  margin-top: 20px;
+  font-size: 0.7rem;
+}
+
+.review > .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 50%;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.review > .box > .name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.review > .box > .details {
+  text-align: center;
+  font-size: 0.6rem;
+  color: rgb(185, 184, 184);
+}
